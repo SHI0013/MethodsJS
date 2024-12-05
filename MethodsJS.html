@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript String Methods</h1>
+    <script>
+        var str = "aMaZiNg";
+        document.write(str.toUpperCase());
+        document.write("<br>");
+        document.write(str.toLowerCase());
+        document.write("<br>");
+        document.write(str.startsWith('s'));
+        document.write("<br>");
+
+        //Test Method
+        var str1 = "It's Christmas in 20 days";
+        var patt = new RegExp("days");
+        var result = patt.test(str1);
+        document.write(result);
+    </script>
+</body>
+</html>
